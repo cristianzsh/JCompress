@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.List;
-
 /**
 * JCompress 0.0.1
 * @author Cristian Henrique (cristianmsbr@gmail.com)
