@@ -16,9 +16,11 @@ public class Functions {
 	private byte[] buffer = new byte[1024];
 
 	public void compress(String file, String destination) throws Exception {
+		File f = new File(file);
 		FileInputStream in = new FileInputStream(file);
 		ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(destination));
-		zos.putNextEntry(new ZipEntry(new File(file).getName()));
+		zos.putNextEntry(new ZipEntry(f.getName()));
+		System.out.println("Adding " + f.getName() + " in " + destination);
 
 		int len;
 		while ((len = in.read(buffer)) > 0) {
