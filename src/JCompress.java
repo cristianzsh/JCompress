@@ -1,5 +1,5 @@
 /**
-* JCompress 0.0.1
+* JCompress 0.0.2
 * @author Cristian Henrique (cristianmsbr@gmail.com)
 */
 
@@ -9,7 +9,7 @@ public class JCompress {
 	public static void main (String[] args) {
 		if (args.length == 0) {
 			System.out
-				.println("JCompress 0.0.1\nDeveloped by Cristian Henrique (cristianmsbr@gmail.com)\n\nUsage: JCompress -[flag] [file] [destination]\nType [JCompress -h] for help");
+				.println("JCompress 0.0.2\nDeveloped by Cristian Henrique (cristianmsbr@gmail.com)\n\nUsage: JCompress -[flag] [file] [destination]\nType [JCompress -h] for help");
 			return;
 		}
 
